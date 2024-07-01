@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.titulo-agenda {
+    text-align: center;
+    color: rgba(243, 149, 243, 0.993);
+}
+.texto-agenda p {
+    color: rgba(255, 255, 255, 0.993);
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container {
+    height: 100vh;
+    width: 70vw;
+    margin: 2rem auto;
+}
+
+input{ padding:12px; 
+    font-size:15px; 
+    border-width:1px; 
+    border-radius:13px; 
+    border-style:groove; 
+    background-color:#ffe8ff; 
+    border-color:#faedfa; 
+    color:#000000; 
+    box-shadow: 0px 0px 4px 0px rgba(232,130,232,.62); 
+    font-weight:normal;  
+}
+
+.btn-agendar-paciente {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: rgba(232,130,232,.62);
+}
+.btn-agendar-paciente:hover {
+    background-color: rgba(232,130,232,.62);
+}
+.btn-agendar-paciente:active {
+    top: 2px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+form {
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-datos {
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-datos input {
+    margin: 1rem 0rem;
+}
+.formulario-datos button {
+    margin: 1rem 0rem;
+}
+
+.listado-tareas {
+    display: block;
+    flex-direction: column;
+    
+}
+
+.tarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+    color: rgba(248, 182, 220, 0.801);
+    
+}
+
+.icono {
+    color: rgb(177, 5, 5);
+    cursor: pointer;
+}
+
+.icono:hover {
+    transform: scale(2);
+}
+
+.alerta {
+
+    color: #f44336; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-align: center; 
+
+}
+
+ /* ------------------ atender.html -----------------------*/
+ .main-pacientes {
+    margin-top: 4rem;
+}
+
+ .header {
+    background-color: rgba(232,130,232,.62);
+    height: 3rem;
+    align-items: center;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+ .header .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header .nav-links li a:hover {
+    color: #fafdff;
+}
+
+.a-nav {
+    background-color:rgba(233, 107, 233, 0.62);
+    padding: .5rem;
+    border-radius: .5rem ; 
+    border-
+}
+
+.tabla-pacientes {
+    color: #ffff;
+}
+
+.titulo-paciente {
+    color: rgba(243, 149, 243, 0.993);
+}
+
+.atender-pacientes p {
+    text-align: left;
+    color: #ffff;
+    margin: .5rem;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 1.5rem;
+    margin: auto;
+    margin-top: 1rem;
+    width: 30%;
+  }
+  th, td {
+    border: 1px solid rgba(232,130,232,.62);
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color:rgba(232,130,232,.62);
+  }
+
+
+.container-pacientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(248, 182, 220, 0.801);
+    width: 40%;
+    border-radius: 1.5rem;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    color: #000000;
+    font-weight: 500;
+}
+
+.lista-pacientes-estilo  {
+    line-height: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-indent: 5px;
+    
+
+}
+
+
+
+.btn-cargar-datos {
+    background-color: rgba(255, 180, 41, 0.055);
+    color: #fff;
+    background-color: #d3168b;
+    padding: .5rem;
+    cursor: pointer;
+    min-width: 130px;
+    border: 1px solid #000000;
+    margin-bottom: .5rem;
+}
+
+.btn-cargar-datos:hover {
+    background-color: rgba(248, 182, 220, 0.801);
+}
+
+
+.btn-limpiar-lista {
+    background-color: rgba(255, 180, 41, 0.055);
+    color: #fff;
+    background-color: #960c4c;
+    padding: .5rem;
+    cursor: pointer;
+    min-width: 130px;
+    border: 1px solid #000000;
+    margin-top: 1.5rem;
+}
+
+.btn-limpiar-lista:hover {
+    background-color: transparent;
+    
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Agenda medica</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav>
+            <ul class="nav-links">
+                <li><a class="a-nav" href="./atender.html">Atender pacientes</a></li>
+                <li><a class="a-nav" href="./index.html">Agenda médica</a></li>
+            </ul>
+        </nav>
+        <main>
+
+        
+    <div class="container">
+        <div class="texto-agenda">
+            <h1 class="titulo-agenda">AGENDA MEDICA</h1>
+            <p>Está es la agenda para agregar nuevos pacientes..</p>
+        </div>
+
+
+        <div class="formulario-datos">
+            <form action="" id="form">
+            <input type="text" class="paciente" placeholder="Nombre del paciente" required>
+            <input type="number" class="numero" placeholder="Número celular" required>
+            <input type="text" class="consulta" placeholder="Consulta medica" required>
+            <button class="btn-agendar-paciente">Agendar paciente</button>
+
+        </form>
+            <div class="listado-tareas">
+                <div class="tarea">
+                    <h3>Nombre del <br> paciente</h3>
+                    <p>Núm celular</p>
+                    <p>Consulta <br> médica</p>
+                    
+
+                </div>
+                
+                <!-- <div class="tarea">
+                    <h3>nombre</h3>
+                    <p>numero</p>
+                    <p>direccion</p>
+                    <span class="material-icons icono">
+                    delete_forever
+                    </span>
+                </div> -->
+            </div>
+            
+
+        </div>
+    </div>
+</main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="funciones.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

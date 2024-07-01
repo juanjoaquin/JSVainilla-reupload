@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <title>Atender pacientes en espera</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="nav-links">
+                <li><a class="a-nav" href="../pages/atender.html">Atender pacientes</a></li>
+                <li><a class="a-nav" href="../index.html">Agenda médica</a></li>
+            </ul>
+        </nav>
+
+
+
+    <main class="main-pacientes">
+    <div class="container-pacientes">
+        <div class="atender-pacientes">
+            <h1 class="titulo-paciente"> Atender pacientes en espera...</h1>
+            <p>Hay pacientes en la espera para ser atendidos. <br>
+            Con presionar el botón, se llamaran a los pacientes según su orden de llegada.</p>
+        </div>
+    </div>
+
+
+
+    <div class="tabla-pacientes">
+        <table>
+            <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Turno</th>
+                <th>Consulta médica</th>
+            </tr>
+            </thead>
+            <tr>
+                <td>Cristian Diaz</td>
+                <td>1</td>
+                <td>Dolor de cabeza</td>
+            </tr>
+            <tr>
+                <td>Magali Cruz</td>
+                <td>2</td>
+                <td>Embarazo</td>
+            </tr>
+            <tr>
+                <td>Juan Komar</td>
+                <td>3</td>
+                <td>Control rutinario</td>
+            </tr>
+            <tr>
+                <td>Adriana Torres</td>
+                <td>4</td>
+                <td>Control hipotiroidismo</td>
+            </tr>
+            <tr>
+                <td>Cataline Rojas</td>
+                <td>5</td>
+                <td>Formación de ronchas en la piel</td>
+            </tr>
+            <tr>
+                <td>Benny Sosa</td>
+                <td>6</td>
+                <td>Presión alta</td>
+            </tr>
+            <tr>
+                <td>Candela Flores</td>
+                <td>7</td>
+                <td>Fuerte dolor en el pecho</td>
+            </tr>
+            <tr>
+                <td>Marcos González</td>
+                <td>8</td>
+                <td>Estreptococo</td>
+            </tr>
+            <tr>
+                <td>Laura Barrientos</td>
+                <td>9</td>
+                <td>Posible celiaquia</td>
+            </tr>
+            <tr>
+                <td>Florencia López</td>
+                <td>10</td>
+                <td>Dolor en el abdomen</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="boton-container">
+        <button class="btn-cargar-datos">Llamar pacientes</button>
+        <div class="lista-pacientes-estilo" id="lista-pacientes">
+            
+        </div>
+        <button class="btn-limpiar-lista">Limpiar lista</button>
+
+    </div>
+</main>
+
+<script src="../javascript/atenderPacientes.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

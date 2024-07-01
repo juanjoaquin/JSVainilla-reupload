@@ -1,0 +1,37 @@
+[{"nombre": "Cristian Diaz: ", "turno": 1, "consulta": " - Dolor de cabeza" },
+
+{"nombre": "Magali Cruz: ", "turno": 2, "consulta": " - Embarazo" },
+
+{"nombre": "Juan Komar: ",
+"turno": 3,
+"consulta": " - Control rutinario" },
+
+{"nombre": "Adriana Torres: ",
+"turno":   4,
+"consulta": " - Control hipotiroidismo" },
+
+{"nombre": "Cataline Rojas: ",
+"turno": 5,
+"consulta": " - Formación de ronchas en la piel" },
+
+{"nombre": "Benny Sosa:",
+"turno": 6,
+"consulta": " - Presión alta " },
+
+{"nombre": "Candela Flores: ",
+"turno": 7,
+"consulta": " - Fuerte dolor en el pecho" },
+
+{"nombre": "Marcos González: ",
+"turno": 8,
+"consulta": " - Estreptococo" },
+
+{"nombre": "Laura Barrientos: ",
+"turno": 9,
+"consulta": " - Posible celiaquia" },
+
+{"nombre": "Florencia López: ",
+"turno": 10,
+"consulta": " - Dolor en el abdomen" }
+
+]
